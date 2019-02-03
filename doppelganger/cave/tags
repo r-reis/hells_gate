@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/6aa62c9/
+MM	core.py	/^from helpers import MorphMixin as MM $/;"	x
+Morph	helpers.py	/^class Morph:$/;"	c
+MorphMixin	helpers.py	/^class MorphMixin():$/;"	c
+__init__	helpers.py	/^    def __init__(self):$/;"	m	class:MorphMixin
+__init__	helpers.py	/^    def __init__(self, name, body, race="none"):$/;"	m	class:Morph
+beautiful	core.py	/^from bs4 import BeautifulSoup as beautiful$/;"	x
+download_images	manipulate.py	/^def download_images(morpher):$/;"	f
+get_images	helpers.py	/^    def get_images(self, all_images, link, ssl):$/;"	m	class:Morph
+get_url	manipulate.py	/^def get_url(url):$/;"	f
+identify_race	helpers.py	/^    def identify_race(soup):$/;"	m	class:MorphMixin
+morpher	core.py	/^morpher = MM.setup_morpher(soup)$/;"	v
+page	core.py	/^page = manipulate.get_url(url)$/;"	v
+save_image	manipulate.py	/^def save_image(file_name, page):$/;"	f
+set_type	helpers.py	/^    def set_type(self):$/;"	m	class:Morph
+setup_morpher	helpers.py	/^    def setup_morpher(soup):$/;"	m	class:MorphMixin
+soup	core.py	/^soup = beautiful(page.text, "html.parser")$/;"	v
+url	core.py	/^url = input("desire:\\n")$/;"	v
