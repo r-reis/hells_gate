@@ -22,7 +22,7 @@ def verify_args(args):
     elif args.artist:
         artist = args.artist.lower()
         artist = sub(regex, '', artist)
-        page = '/s/' + artist + '.html'
+        page = '/' + artist[0] + '/' + artist + '.html'
         search_music(default_page + page)
 
 
