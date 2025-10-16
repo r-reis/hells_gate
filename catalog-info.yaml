@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hells_gate
+  annotations:
+    github.com/project-slug: r-reis/hells_gate
+spec:
+  type: other
+  lifecycle: unknown
+  owner: guests
